@@ -1,5 +1,5 @@
-train: C:\Users\sanjay\halpha_yolo\train
-val: C:\Users\sanjay\halpha_yolo\val
+train: .\train
+val: .\val
 
 nc: 3
 
