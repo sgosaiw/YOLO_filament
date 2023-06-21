@@ -8,13 +8,16 @@ https://github.com/ultralytics/ultralytics
 
 **Create Labeled Data for Training and Validation**
 Used LabelImg to label images. 
->> pip install labelImg
-
+```
+pip install labelImg
+```
 **Train Model for Filaments, prominences and Active Regions using Labeled data**
->> yolo task=detect mode=train epochs=400 data=data_custom.yaml model=yolov8m.pt imgsz=640 batch=32 patience=400
-
+```
+yolo task=detect mode=train epochs=400 data=data_custom.yaml model=yolov8m.pt imgsz=640 batch=32 patience=400
+```
 **Predict using YOLOv8 on images/movies from NSO GONG Halpha network.**
->>yolo task=detect mode=predict model=custom_halpha.pt show=True conf=0.5 source=1.jpeg
-
+```
+yolo task=detect mode=predict model=custom_halpha.pt show=True conf=0.5 source=1.jpeg
+```
 ![alt text](https://github.com/sgosaiw/YOLO_filament/blob/main/1.jpeg?raw=true)
 
