@@ -16,12 +16,11 @@ pip install simple_image_download==0.4
 
 Now the code "download_images.py" should work to download images from the web.
 
-** To annotate or label images install labelImg
+**To annotate or label images install labelImg**
 ```
 pip install labelImg
 ```
-
-run "labelImg" command
+Now run "labelImg" command
 
 In a folder store images that we need to label. 
 Select the data folder and also the output folder in labelImg.
@@ -56,7 +55,7 @@ From YOLOv8 site download yolov8m.pt or other model. Larger models accurate but 
 
 **Start training and validating on labeled custom data**
 
-** Predict on new data and movies**
+**Predict on new data and movies**
 
 
 
