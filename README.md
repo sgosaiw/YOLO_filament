@@ -21,3 +21,7 @@ yolo task=detect mode=predict model=custom_halpha.pt show=True conf=0.5 source=1
 ```
 ![alt text](https://github.com/sgosaiw/YOLO_filament/blob/main/1.jpeg?raw=true)
 
+**Utility programs**
+convert_gif_mp4.py : Convert a colored or BW GIF animation to BW mp4 file
+convert_gif_HE_mp4.py: Convert a colored or BW GIF animation to BW mp4 file with HistogramEqualization
+download.py: Download images from internet search.
