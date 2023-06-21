@@ -1,0 +1,6 @@
+train: C:\Users\sanjay\halpha_yolo\train
+val: C:\Users\sanjay\halpha_yolo\val
+
+nc: 3
+
+names: ["activeregion","filament","prominence"]
