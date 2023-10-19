@@ -1,4 +1,4 @@
-# YOLO_filament
+# YOLO_filament : A YOLOv5 based detection of solar chromospheric filaments (Gosain,S. 2023)
 Customized YOLOv8 neural network model for detecting filaments, prominences and active regions in fulldisk H-alpha images from GONG network.
 YOLO (You Only Look Once) is a convolutional neural network (CNN) designed for object recognition in images and videos. It is very fast and allows real time object detection. 
 
