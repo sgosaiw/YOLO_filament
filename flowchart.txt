@@ -1,0 +1,35 @@
++------------------------------------------------------+
+|                Start: YOLO_filament repo             |
++------------------------------------------------------+
+                      |
+                      v
++------------------------------------------------------+
+|       Install YOLOv8 (pip install ultralytics)       |
+|  (See README lines 5-7 for installation reference)   |
++------------------------------------------------------+
+                      |
+                      v
++------------------------------------------------------+
+|       Create labeled data using LabelImg             |
+|   (README lines 9-13 describe installing LabelImg)   |
++------------------------------------------------------+
+                      |
+                      v
++------------------------------------------------------+
+|          Train YOLOv8 model on labeled data          |
+|  (Use `yolo ... mode=train` as shown in lines 14-17) |
++------------------------------------------------------+
+                      |
+                      v
++------------------------------------------------------+
+|       Run predictions on new H-alpha images          |
+|  (See `yolo ... mode=predict` in lines 18-20)        |
++------------------------------------------------------+
+                      |
+                      v
++------------------------------------------------------+
+| Optional utility scripts:                            |
+| - Convert GIFs to MP4 with gamma or histogram eq.    |
+| - Download images from the web                       |
+| (Mentioned in lines 24-27 of the README)             |
++------------------------------------------------------+
